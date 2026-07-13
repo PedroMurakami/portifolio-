@@ -1,0 +1,41 @@
+<template>
+    <lightning-card title="Emissão Rápida de Ingresso" icon-name="custom:custom13">
+        <div class="slds-p-around_medium">
+            <template if:true={eventos.data}>
+                <lightning-combobox
+                    name="evento"
+                    label="Selecione o Evento"
+                    value={eventoSelecionado}
+                    placeholder="Selecione..."
+                    options={opcoesEventos}
+                    onchange={handleEventoChange}
+                    required>
+                </lightning-combobox>
+            </template>
+
+            <lightning-input 
+                label="Nome do Participante" 
+                value={nome} 
+                onchange={handleNomeChange}
+                required>
+            </lightning-input>
+
+            <lightning-input 
+                type="email" 
+                label="E-mail do Participante" 
+                value={email} 
+                onchange={handleEmailChange}
+                required>
+            </lightning-input>
+
+            <div class="slds-m-top_medium">
+                <lightning-button 
+                    variant="brand" 
+                    label="Confirmar Inscrição" 
+                    onclick={handleSalvar}
+                    disabled={isBotaoDesabilitado}>
+                </lightning-button>
+            </div>
+        </div>
+    </lightning-card>
+</template>
