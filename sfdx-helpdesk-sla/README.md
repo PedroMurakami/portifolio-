@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/SLDS-Lightning_Design_System-0070D2?style=for-the-badge" />
 </p>
 
-# 🎫 Helpdesk Inteligente — Sistema de Gestão de Chamados e SLA
+#  Helpdesk Inteligente — Sistema de Gestão de Chamados e SLA
 
 > **Intelligent Helpdesk — Ticket & SLA Management System**
 
@@ -14,7 +14,7 @@ A full-stack Salesforce DX project demonstrating enterprise-grade patterns for *
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Business Problem](#-business-problem)
 - [Solution Overview](#-solution-overview)
@@ -30,7 +30,7 @@ A full-stack Salesforce DX project demonstrating enterprise-grade patterns for *
 
 ---
 
-## 🎯 Business Problem
+##  Business Problem
 
 Support teams often struggle with:
 
@@ -42,7 +42,7 @@ Support teams often struggle with:
 
 ---
 
-## 💡 Solution Overview
+##  Solution Overview
 
 | Layer | What it does |
 |-------|-------------|
@@ -55,7 +55,7 @@ Support teams often struggle with:
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 ```mermaid
 flowchart TD
@@ -114,7 +114,7 @@ flowchart LR
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 sfdx-helpdesk-sla/
@@ -153,7 +153,7 @@ sfdx-helpdesk-sla/
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 ### Backend (Apex)
 - ✅ **Clean Trigger pattern** — one trigger per object, handler + service separation.
@@ -164,17 +164,17 @@ sfdx-helpdesk-sla/
 - ✅ **Bulk-safe** — tested with 200+ records, no governor limit issues.
 
 ### Frontend (LWC)
-- 🖥 **Dashboard metrics** — Total / Open / Resolved / SLA Violated counters.
-- 🔍 **Live search** with debounced text input.
-- 🎛 **Combo filters** for Status and Priority.
-- 🏷 **Color-coded badges** for priority (Low → Critical) and status.
-- 🚨 **Visual SLA alerts** — red border for violated, orange for at-risk (< 2 h).
-- ⚡ **Quick status change** via dropdown on each card with Toast notification.
-- ⏳ **Loading spinner** and **empty state** handling.
+-  **Dashboard metrics** — Total / Open / Resolved / SLA Violated counters.
+-  **Live search** with debounced text input.
+-  **Combo filters** for Status and Priority.
+-  **Color-coded badges** for priority (Low → Critical) and status.
+-  **Visual SLA alerts** — red border for violated, orange for at-risk (< 2 h).
+-  **Quick status change** via dropdown on each card with Toast notification.
+-  **Loading spinner** and **empty state** handling.
 
 ---
 
-## ⏱ SLA Rules
+##  SLA Rules
 
 | Priority | SLA Deadline |
 |----------|-------------|
@@ -187,9 +187,9 @@ sfdx-helpdesk-sla/
 
 ---
 
-## 📸 Screenshots / Demo
+##  Screenshots / Demo
 
-> **📌 Replace the placeholders below with actual screenshots of your scratch org.**
+> ** Replace the placeholders below with actual screenshots of your scratch org.**
 
 | Dashboard Overview | Ticket Card with SLA Alert |
 |--------------------|---------------------------|
@@ -201,7 +201,7 @@ sfdx-helpdesk-sla/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -261,15 +261,7 @@ Expected coverage: **95 %+** across `HelpdeskTicketService`, `HelpdeskTicketTrig
 
 ---
 
-## 👤 Author
 
-**Seu Nome / Your Name**
-
-- 💼 [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
-- 🐙 [GitHub](https://github.com/YOUR_USERNAME)
-- ☁️ Salesforce Certified Developer
-
----
 
 ## 📄 License
 
