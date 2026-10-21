@@ -1,16 +1,18 @@
-Olá! Eu sou o Pedro Murakami
+Eu sou  Pedro Fiori Murakami
 
 Sou estudante de Sistemas de Informação na UFU e atualmente estou me aprofundando em desenvolvimento de software e otimização de computação. Tenho interesse em construir soluções que unam tecnologia, eficiência e impacto real, seja por meio de projetos acadêmicos ou pessoais.
 
-💡 Áreas de interesse:
+Áreas de interesse:
 
-Desenvolvimento de software (C, Python, JavaScript)
+Desenvolvimento de software (C, Python, JavaScript, Kotlin, C++)
 
 Estruturas de dados e algoritmos
 
 Análise e otimização de sistemas computacionais
 
 Projetos web e aplicações interativas
+
+Ciência de dados
 
 📚 Atualmente estudando:
 
